@@ -1,0 +1,40 @@
+.body__index {
+    background-image: url(../Image/heroimage__index.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button__vc {
+    width: 300px;
+    height: auto;
+}
+
+.button__vc:hover {
+    transform:scale(0.8);
+            -ms-transform:scale(0.8); // IE 9 
+            -moz-transform:scale(0.8); // Firefox 
+            -webkit-transform:scale(0.8); // Safari and Chrome 
+            -o-transform:scale(0.8); // Opera
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px; 
+}
+.button__pv {
+    width: 300px;
+    height: auto;
+}
+
+.button__pv:hover {
+    transform:scale(0.8);
+            -ms-transform:scale(0.8); // IE 9 
+            -moz-transform:scale(0.8); // Firefox 
+            -webkit-transform:scale(0.8); // Safari and Chrome 
+            -o-transform:scale(0.8); // Opera
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px; 
+}
+
+.display-4 {
+    padding-top: 25%;
+}

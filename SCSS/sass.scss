@@ -1,25 +1,8 @@
 @import 'variables';
+@import 'cards';
+@import 'heroimage';
+@import 'navbar';
 
-.body__index {
-    padding: 0;
-    margin: 0;
-    background: url(image/heroimage__index.png);
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif;
-    background-attachment: fixed;
-}
 
-.navbar {
-    background-color:transparent;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.01);
-    min-height: 100px; 
-    font-size: large;
-    justify-content: space-between;
-}
 
-.logo-brand {
-    width: 250px !important;
-    height: auto;
-}
+
