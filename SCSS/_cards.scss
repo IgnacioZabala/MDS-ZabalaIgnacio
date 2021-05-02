@@ -1,10 +1,6 @@
 .wrap{
 	width: 1100px;
-	margin: 50px auto;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
+	margin: 60x auto;
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
@@ -28,6 +24,9 @@
 	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
 	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
 	border-radius: 30px;
+	float: left;
+	width: 25%;
+	padding: 0 10px;
 }
 
 .front, .back{
@@ -97,6 +96,18 @@
 }
 .card2{
 	background-image: url(../Image/Packaging/premium_adulto_rp.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.card3{
+	background-image: url(../Image/Packaging/premium_cachorros.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.card4{
+	background-image: url(../Image/Packaging/provet_ap.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
