@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Image/Logos/logo__mds.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="../CSS/main.css">
+
+    <title>Mascotas del Sudeste</title>
+    <meta name="description" content="Venta por mayor de alimento balanceado para mascotas. Distribución oficial de Vitalcan y Provet en Tandil y la zona">
+    <meta name="keywords" content="Alimento para perros, Alimento para gatos, alimento balanceado por mayor, Distribuidora Tandil, Vitalcan, Provet">
+</head>
+
+<body class="body__all">
+    <!--Navbar bootstrap-->
+    <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-list"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+                    </svg>
+                </button>
+                <a class="navbar-brand ml-auto" href="../index.html"><img src="../Image/Logos/logo__mds.png" alt="Logo MDS" class="logo-brand"></a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Perros
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../Pages/perros.html">Adultos</a></li>
+                                <li><a class="dropdown-item" href="../Pages/perros.html">Cachorros</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="../Pages/perros.html">Todos los productos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Gatos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../Pages/gatos.html">Adultos</a></li>
+                                <li><a class="dropdown-item" href="../Pages/gatos.html">Cachorros</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="../Pages/gatos.html">Todos los productos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../Pages/sobre__nosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../Pages/contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+    </nav>
+    <!--Sobre nosotros-->
+    <div class="container form__cn">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="../Image/Packaging/maine-coon-kitten-brand-birth-growth-breed-emblematic.jpg" alt="Kitten">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="form-title">¿Tenes alguna duda?</h1>
+                <p class="form-text">Completa nuestro formulario para que podamos brindarte la informacion que estas buscando.</p>
+                    <div>
+                        <form action="contacto.html" method="POST">
+                            <label for="nombre">Nombre: </label> <br>
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre"> <br>
+                            <label for="email">Email: </label> <br>
+                            <input type="text" id="email" name="email" placeholder="Email"> <br>
+                            <select name="Tipo de cliente"> <br>
+                                <option value="1">Veterinaria</option>
+                                <option value="2">Criadores</option>
+                                <option value="3">Dueño de mascota</option>
+                            </select> <br>
+                            <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escriba su mensaje..."></textarea> <br>
+                            <Label for="newsletter">¿Desea recibir el Newsletter?</Label> <br>
+                            <input type="checkbox" name="newsletter" id=""> <br>
+                            <input type="reset" value="Limpiar formulario"> <br>
+                            <input type="submit" value="Enviar"> <br>
+                        </form>
+                    </div>
+                </div>
+             </div>       
+        </div>
+        <!--Footer-->
+        <footer class="bg-dark text-white py-4">
+            <div class="container">
+                <nav class="row">
+                    <ul class="col-4 list-unstyled">
+                        <li class="font-weight-bold text-uppercase">
+                            Mapa del sitio
+                        </li>
+                        <li>
+                            <a href="../index.html" class="text-reset">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="../Pages/perros.html" class="text-reset">Perros</a>
+                        </li>
+                        <li>
+                            <a href="../Pages/gatos.html" class="text-reset">Gatos</a>
+                        </li>
+                        <li>
+                            <a href="../Pages/sobre__nosotros.html" class="text-reset">Sobre nosotros</a>
+                        </li>
+                        <li>
+                            <a href="../Pages/contacto.html" class="text-reset">Contacto</a>
+                        </li>
+                    </ul>
+                    <ul class="col-4 list-unstyled">
+                        <li class="font-weight-bold text-uppercase">
+                            Contactanos
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp"></i><p>249-459-9381</p> 
+                        </li>
+                        <li>
+                            <i class="far fa-envelope"></i><p>mascotasdelsudeste@gmail.com</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marked-alt"></i><p>Parque Industrial Tandil</p> 
+                        </li>
+                    </ul>
+                    <ul class="col-4 list-unstyled">
+                        <li class="font-weight-bold text-uppercase">
+                            Redes sociales
+                        </li>
+                        <li class="d-flex justify-content-between">
+                            <a href="#" class="text-reset">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="#" class="text-reset">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="text-reset">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                            <a href="#" class="text-reset">
+                                <i class="fab fa-youtube"></i></i>
+                            </a>
+                        </li>
+                    </ul>   
+                </nav>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 legal-footer">
+                        <p>Copyright Mascotas del Sudeste - 2021. Todos los derechos reservados.</p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+    crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
+

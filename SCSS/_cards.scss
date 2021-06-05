@@ -1,114 +1,38 @@
-.wrap{
-	width: 1100px;
-	margin: 60x auto;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	-ms-flex-pack: center;
-	justify-content: center;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-.card__wrap{
-	margin: 10px;
-	-webkit-perspective: 800;
-	perspective: 800;
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,3fr));
+    padding: 20px;
+    grid-gap: 60px;
 }
-
 .card{
-	width: 150px + 150px;
-	height: 350px;
-	position: relative;
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	-webkit-transition: .7s ease;
-	transition: .7s ease;
-	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
-	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
-	border-radius: 30px;
-	float: left;
-	width: 25%;
-	padding: 0 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
 }
-
-.front, .back{
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	border-radius: 30px;
+.container{
+    position: relative;
 }
-
-.front{
-	width: 100%;
-}
-
-.back{
-	-webkit-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-	padding: 10px;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	-ms-flex-align: center;
-	align-items: center;
-	text-align: center;
-	color: rgb(0, 0, 0); 
-	font-family: "roboto";
-    background: #fff;
-}
-
-.card__wrap:hover .card{
-	-webkit-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-	justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-}
-.aportes__cards {
-    margin: 15px 15px 15px -15px;
-    list-style: none;
-    text-align: justify;
-}
-
-.logo__card__vc {
-    width: 150px;
-    height: auto;
+img{
+    width: 100%;
     display: block;
-    margin: auto;
+    border-radius: 20px 20px 0 0;
 }
 
-.card1{
-	background-image: url(../Image/Packaging/premium_adulto.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+.aportes__cards{
+    list-style: none;
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
-.card2{
-	background-image: url(../Image/Packaging/premium_adulto_rp.png);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-.card3{
-	background-image: url(../Image/Packaging/premium_cachorros.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-.card4{
-	background-image: url(../Image/Packaging/provet_ap.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+
+.logo__vc{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 200px;
+    height: auto;
 }
